@@ -9,13 +9,14 @@ import Gallery from './Component/Content_Gallery/Content_Gallery';
 import Form_Feedback from './Component/Form_Feedback/Form_Feedback';
 import Contact from './Component/Contact/Contact';
 import Detail_Product from './Component/Detail_Product/Detail_Product';
+import Slider from './Component/Slider/Slider';
 import {BrowserRouter,Route,Routes} from 'react-router-dom'
 function App() {
   return (
     <div >
        <BrowserRouter>
        <Header/>
-       {/* <Slider/> */}
+       <Slider/>
           <Routes>
             <Route path={"/"} element={<ContentHome/>}/>
             <Route path={"/about"} element={<ContentAbout/>}/>

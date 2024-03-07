@@ -1,70 +1,71 @@
-# Getting Started with Create React App
+<a  name="readme-top"></a>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+<br  />
 
-In the project directory, you can run:
+<div  align="center">
+ 
 
-### `npm start`
+<img  src="https://github.com/nguyenminhtien1993/public_group_2/blob/main/src/Img/logo-tach.png"  alt="Logo"  width="70%"  height="15%">
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+</a>
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+<h3  align="center">ORIGAMI</h3>
 
-### `npm test`
+Welcome to the website of Origami ORGM Joint Stock Company, where the company is currently selling books instructing users to create pets and souvenirs. Origami helps people reduce stress after tiring working hours. Even more interesting, ORGM uses all the money from book sales to support charity organizations
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+<br  />
+<div align="center">
+<a  href="https://github.com/nguyenminhtien1993/group2"><strong>Explore the source »</strong></a>
+<a  href="https://github.com/nguyenminhtien1993/group2" target="_blank"><strong>Explore the documents »</strong></a>
 
-### `npm run build`
+<br  /><a  href="https://group-2-six.vercel.app/" target="_blank">View Demo</a> . <a  href="https://youtu.be/bVX9OvVHBpQ" target="_blank">Video</a>
+</div>
+<img  src="https://github.com/nnhatnam05/eProject-Fpt-Aptech-Group5-SafeCarzLimited/assets/146631947/48885fe9-be22-4bfc-9fe1-df41ce0fdfc6"  alt=""  width="768px"  height="auto">
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Built With
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Below is the languages/libraries we used for this project:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+![HTML]&nbsp;![CSS3] &nbsp;![JS]&nbsp;![BOOSTRAP]&nbsp;![REACT]
 
-### `npm run eject`
+<div  align="left">
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+### Features </br>
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+<ol>
+<li>
+Home: showing brief introduction about the origami original, operating philosophy.keywords the origami designs with all navigation links defined. The customer could login and register to become member of the OGRM or Buy the origami guide book . show logo of partner unit. </br>
+</li>
+<li>
+About us: detail about  the origami original , benefit in Therapy. Show  brief develope history of ORGM. Information about the board of directors</br>
+</li>
+<li>
+ Category: containing various categories for kids and adult with their details content and image, video to guide make origami</br>
+</li>
+<li>
+Gallery: show image of the origami product designed by the ORGM</br>
+</li>
+<li>
+Contact us: Gmail , Google map, phone, adresss, Time of work</br>
+</li>
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+<li>
+Feedback form: the level of saticfaction of customer about content, image, video of categories for kids, adult and the origami guide book.</br>
+</ol>
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## Members of group
 
-## Learn More
+### Leader : Phan Từ Thiện `Student1526149`
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+#### Members:
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Nguyễn Minh Tiến `Student1526173` </br>
+Bùi Nhật Thành `Student1526146` </br>
+Cao Văn Chiến `Student1526176` </br>
 
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+[HTML]: https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white
+[CSS3]: https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white
+[JS]: https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black
+[BOOSTRAP]: https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white
+[REACT]: https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB
