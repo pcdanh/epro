@@ -1,0 +1,121 @@
+/*** Project Portfolio ***/
+/* * <!-- Portfolio Gallery Grid --> */
+ * {
+  box-sizing: border-box;
+}
+
+.caycanh_body {
+  background-color: #f1f1f1;
+  padding: 20px;
+  font-family: Arial;
+}
+
+/* Center website */
+.caycanh_main {
+  max-width: 1200px;
+  margin: auto;
+}
+
+#ch_product .container h1 {
+  font-size: 50px;
+  word-break: break-all;
+}
+
+.row {
+  margin: 10px -16px;
+}
+
+/* Add padding BETWEEN each column */
+.row,
+.row > .caycanh_column {
+  padding: 8px;
+}
+
+/* Create three equal columns that floats next to each other */
+.caycanh_column {
+  float: left;
+  width: 25% !important;
+  display: none; /* Hide all elements by default */
+}
+@media only screen and (max-width: 576px) {
+  .caycanh_column {
+    width: 100% !important;
+  }
+}
+#ch_product .container img {
+  height: 250px;
+}
+#ch_product .caycanh_column:hover .card {
+  transition: all ease-in 0.5s;
+  transform: scale(1.05);
+  z-index: 20;
+  border: 4px solid rgb(25, 212, 25) !important;
+}
+.row .caycanh_column .card h5 {
+  text-align: center;
+  margin: 4px auto;
+  background-color: rgb(27, 216, 62);
+  border-radius: 25px;
+  width: 70%;
+}
+.row .caycanh_column .card p {
+  margin-left: 10px;
+  font-weight: bold;
+  font-size: 20px;
+}
+/* Clear floats after rows */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Content */
+/* .content {
+    background-color: white;
+    padding: 20px;
+  } */
+
+/* The "show" class is added to the filtered elements */
+.caycanh_show {
+  display: block;
+}
+
+/* Style the buttons */
+#myBtnContainer .btn_filter {
+  border: none;
+  outline: none;
+  width: fit-content;
+  padding: 5px;
+  background-color: brown;
+  cursor: pointer;
+  color: white;
+  border-radius: 25px;
+  font-weight: bold;
+}
+
+#myBtnContainer .btn_filter:hover {
+  background-color: #ddd;
+}
+
+#myBtnContainer .btn_filter.h_active {
+  background-color: rgb(232, 200, 200);
+  color: brown;
+}
+.ch-content {
+  margin-top: 10px;
+}
+
+/* form feedback */
+.quote-style {
+  background-color: rgb(243, 241, 241);
+}
+.text-center {
+  color: brown !important;
+}
+.g-img-fluid {
+  width: 100%;
+  height: 150px;
+}
+/* gallery */
+

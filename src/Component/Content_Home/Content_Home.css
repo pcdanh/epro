@@ -1,0 +1,228 @@
+/********** Template CSS **********/
+:root {
+  --primary: #348e38;
+  --secondary: #525368;
+  --light: #e8f5e9;
+  --dark: #0f4229;
+}
+/* A brief history of origami */
+.content-history-psychology .container h2 {
+  text-align: center;
+}
+.content-history-psychology .content-history {
+  display: grid;
+  grid-template-columns: auto auto;
+  margin-top: 50px;
+}
+.content-history-psychology .content-psychology {
+  display: grid;
+  grid-template-columns: 200px auto;
+}
+.content-history-psychology .content-psychology .border-img {
+  width: 100%;
+  height: 180px;
+}
+
+/* img-content-history */
+.content-history-psychology .content-history .img-content-history {
+  width: 100%;
+  height: 100%;
+}
+.content-history-psychology .content-history .img-content-history img {
+  width: 100%;
+  height: 50vh;
+}
+
+.content-history-psychology .container-fluid h2 {
+  text-align: center;
+  font-size: 45px;
+}
+.content-history-psychology .content-history p {
+  font-size: 15px;
+  margin-left: 10px;
+}
+.content-history-psychology .content-psychology h2 {
+  font-size: 25px;
+  margin: auto;
+}
+.content-history-psychology .container-fluid span {
+  font-size: 15px;
+  text-align: left;
+}
+@media only screen and (max-width: 600px) {
+  .content-history-psychology .content-history {
+    display: grid;
+    grid-template-columns: auto;
+  }
+}
+
+/* fpt-aptech-origami */
+/* .origami-book {
+    display: grid;
+    grid-template-columns: auto auto;
+  } */
+.fpt-aptech-origami h1 {
+  text-align: center;
+}
+.fpt-aptech-origami {
+  margin: 100px 50px;
+}
+.fpt-aptech-origami .origami-book-img {
+  width: 100%;
+  height: 300px;
+}
+
+.fpt-aptech-origami .origami-book-img img {
+  width: 100%;
+  height: 100%;
+}
+.fpt-aptech-origami .content-origami-book {
+  margin-top: 40px;
+  margin-left: 50px;
+}
+.fpt-aptech-origami .content-origami-book .button-book button {
+  margin: 10px;
+  background-color: rgb(235, 126, 126);
+  color: var(--light);
+  padding: 5px 10px;
+  border-radius: 25px;
+  font-weight: bold;
+}
+.fpt-aptech-origami .content-origami-book .button-book button:hover {
+  background-color: rgb(169, 234, 65);
+  color: rgb(7, 16, 24);
+  font-weight: bold;
+}
+/* ------Buy Now */
+.offcanvas-title {
+  color: rgb(154, 59, 59);
+}
+.ch-buy-now {
+  display: grid;
+  grid-template-columns: 100px auto;
+}
+.ch-award-district{
+  display: grid;
+  grid-template-columns: 100px auto auto;
+}
+.ch-buy-now label,
+.ch-buy-now input {
+  margin: 5px;
+}
+.ch-buy-now button {
+  width: fit-content;
+  outline: none;
+  border: none;
+  background-color: white;
+}
+.ch-buy-now label {
+  display: flex;
+  flex-direction: row;
+  margin-top: 10px;
+}
+.ch-buy-now input {
+  border: 2px solid black;
+}
+.section .container h1 {
+  text-align: center;
+}
+.minus-plus {
+  display: flex;
+  flex-direction: row;
+}
+.ch-order-clear button {
+  margin: 3px 2px;
+}
+.ch-select-buy{
+  display: grid;
+  grid-template-columns: auto auto;
+}
+/* form contribution */
+.errors {
+  color: red;
+  font-style: italic;
+  font-size: small;
+}
+/* 5 vong tròn */
+
+.feature_circle {
+  display: flex;
+  justify-content: center;
+}
+.container .row .feature_circle hr {
+  border: 3px solid green;
+}
+/* tạo hinh tròn cho 5 hình ảnh*/
+.future_box-up {
+  display: grid;
+  grid-template-columns: auto auto auto auto auto;
+  justify-content: center;
+}
+.box img {
+  --color: #fa6900; /* the color of the border */
+  --border: 10px; /* the thickness of the border */
+  --offset: 30px; /* control the movement of the border */
+  --gap: 5px; /* the gap on hover */
+  /* height width dieu chinh kich thuot ảnh đầu vào */
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+  cursor: pointer;
+  padding: calc(var(--border) + var(--gap));
+  border: var(--offset) solid #0000;
+  /* eslint-disable */
+  --_m: radial-gradient(
+    closest-side at 50% 50%,
+    #000 calc(100% - var(--offset)),
+    #0000 calc(100% - var(--border))
+  );
+  -webkit-mask: var(--_m);
+  mask: var(--_m);
+  --_g: #0000 calc(99% - var(--border)),
+    var(--color) calc(100% - var(--border)) 99%, #0000;
+  --_s: var(--offset);
+  --_r: 100% 100% at;
+  background: radial-gradient(var(--_r) 0 0, var(--_g)) calc(100% + var(--_s))
+      calc(100% + var(--_s)),
+    radial-gradient(var(--_r) 100% 0, var(--_g)) calc(0% - var(--_s))
+      calc(100% + var(--_s)),
+    radial-gradient(var(--_r) 0 100%, var(--_g)) calc(100% + var(--_s))
+      calc(0% - var(--_s)),
+    radial-gradient(var(--_r) 100% 100%, var(--_g)) calc(0% - var(--_s))
+      calc(0% - var(--_s));
+  background-size: 50% 50%;
+  background-repeat: no-repeat;
+  transition: 0.4s;
+}
+.box img:hover {
+  --_s: 0px;
+}
+
+/* 5 vong tròn */
+
+.container .run-border {
+  --color: #8a9b0f; /* the border color */
+  --border: 10px; /* the border thickness*/
+  --offset: 20px; /* control the offset*/
+  --gap: 5px; /* the gap on hover */
+
+  --_c: var(--color) var(--border), #0000 0 calc(100% - var(--border)),
+    var(--color) 0;
+  --_o: calc(3 * var(--offset));
+  padding: calc(var(--gap) + var(--border))
+    calc(var(--gap) + var(--border) + var(--offset))
+    calc(var(--gap) + var(--border) + var(--offset))
+    calc(var(--gap) + var(--border));
+  background: linear-gradient(var(--_c)) var(--_o) var(--_o),
+    linear-gradient(90deg, var(--_c)) var(--_o) var(--_o);
+  background-size: calc(100% - var(--_o)) calc(100% - var(--_o));
+  background-repeat: no-repeat;
+  filter: grayscale(0.4);
+  transition: 0.5s;
+  cursor: pointer;
+}
+.container .run-border:hover {
+  background-position: 0px 0px;
+  background-size: calc(100% - var(--offset)) calc(100% - var(--offset));
+  filter: grayscale(0);
+}
